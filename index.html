@@ -13,7 +13,18 @@
     <div class="scrolldown">
       
     </div>
-    <button>button</button>
+    <button id="btn">button</button>
   </main>
+  <script>
+    const btn = document.getElementById("btn");
+
+    btn.addEventListener("click", ()=> {
+      if(btn.classList.contains("clicked_btn") == true) {
+        btn.classList.remove("clicked_btn");
+      } else {
+        btn.classList.add("clicked_btn");
+      }
+    })
+  </script>
 </body>
 </html>

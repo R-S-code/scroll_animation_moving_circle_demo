@@ -64,14 +64,16 @@ button {
   box-shadow: 3px 3px 6px -2px #555,
               -3px -3px 8px rgba(255,255,255,0.8);
   color: white;
+  cursor: pointer;
   display: block;
   border: none;
   border-radius: 20px;
   font-size: 16px;
   margin: 500px auto;
+  transition: 1s;
   padding: 10px 40px;
 }
-button:hover {
+.clicked_btn {
   box-shadow: 3px 3px 6px -2px #555 inset,
               -3px -3px 8px rgba(255,255,255,0.8) inset;
 }
